@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Interfaces - HTML5</title>
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<link href="../css/base.css" rel="stylesheet">
+		<link href="css/base.css" rel="stylesheet">
+	</head>
+
+	<body class="performance">
+		<div class="flex-container">
+			<div class="flex-row">
+				<div class="flex-item">
+					<h3>HTML5 - Performance Timeline API</h3>
+					<p>This specification defines an unified interface to store and retrieve performance metric data. This specification does not cover individual performance metric interfaces.</p>
+					<p>Accurately measuring performance characteristics of web applications is an important aspect of making web applications faster. Navigation Timing, Resource Timing, and User Timing are examples of specifications that define timing information related to the navigation of the document, resources on the page, and developer scripts, respectively.</p>
+					<p>Together these interfaces, and potentially others created in the future, define performance metrics that describe the performance timeline of a web application. This specification provides an unifying interface to access and retrieve these various performance metrics from the performance timeline of a web application.</p>
+				</div>
+			</div>
+			<div class="flex-row">
+				<div class="flex-item">
+					<img src="images/personalities/nate.jpg" class="treatment" />
+				</div>
+				<div class="flex-item">
+					<img src="images/personalities/ben.jpg" class="treatment" />
+				</div>
+				<div class="flex-item">
+					<img src="images/personalities/creel.jpg" class="treatment" />
+				</div>
+				<div class="flex-item">
+					<img src="images/personalities/cyndi.jpg" class="treatment" />
+				</div>
+				<div class="flex-item">
+					<img src="images/personalities/delarco.jpg" class="treatment" />
+				</div>
+				<div class="flex-item">
+					<img src="images/personalities/doyle.jpg" class="treatment" />
+				</div>
+				<div class="flex-item">
+					<img src="images/personalities/dustin.jpg" class="treatment" />
+				</div>
+				<div class="flex-item">
+					<img src="images/personalities/gately.jpg" class="treatment" />
+				</div>
+			</div>
+			<div class="flex-row">
+				<div class="flex-item">
+					<img src="images/personalities/lance.jpg" class="treatment" />
+				</div>
+				<div class="flex-item">
+					<img src="images/personalities/mika.jpg" class="treatment" />
+				</div>
+				<div class="flex-item">
+					<img src="images/personalities/savage.jpg" class="treatment" />
+				</div>
+				<div class="flex-item">
+					<img src="images/personalities/stipe.jpg" class="treatment" />
+				</div>
+				<div class="flex-item">
+					<img src="images/personalities/lambert.jpg" class="treatment" />
+				</div>
+				<div class="flex-item">
+					<img src="images/personalities/jake.jpg" class="treatment" />
+				</div>
+				<div class="flex-item">
+					<img src="images/personalities/jim.jpg" class="treatment" />
+				</div>
+				<div class="flex-item">
+					<img src="images/personalities/neil.jpg" class="treatment" />
+				</div>
+			</div>
+			<div class="flex-row">
+				<div class="flex-item">
+					<p>I'm loading sixteen medium sized images (above), css, and javascript to render the page. The API measures the load preformance time. You can sort the resources by clicking the links below:</p>
+
+					<div class="sorter">
+						<span class="show_link"><a href="javascript:void(0)"><span class="icon"><img src="images/link.png" /></span>Links</a></span>
+						<span class="show_script"><a href="javascript:void(0)"><span class="icon"><img src="images/script.png" /></span>Scripts</a></span>
+						<span class="show_img"><a href="javascript:void(0)"><span class="icon"><img src="images/image.png" /></span>Images</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="flex-row">
+				<div class="flex-item">
+					<div id="example"></div>
+				</div>
+			</div>
+		</div>
+
+		<script src="scripts/jquery-1.10.2.min.js"></script>
+		<script src="../scripts/lib/underscore-min.js"></script>
+		<script src="scripts/html5-performance-timeline.js"></script>
+	</body>
+</html>

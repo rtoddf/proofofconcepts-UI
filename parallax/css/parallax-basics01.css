@@ -1,0 +1,97 @@
+// http://keithclark.co.uk/articles/pure-css-parallax-websites/
+// http://keithclark.co.uk/articles/practical-css-parallax/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial;
+	font-size: 100%;
+	line-height: auto;
+}
+
+.h3 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 16px;
+}
+
+.parallax {
+	perspective: 1px;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+	font-size: 200%;
+}
+
+/* The parallax class is where the parallax magic happens.
+Defining the height and perspective style properties of an element will
+lock the perspective to its centre, creating a fixed origin 3D viewport.
+Setting overflow-y: auto will allow the content inside the element to scroll
+in the usual way, but now descendant elements will be rendered relative to
+the fixed perspective. This is the key to creating the parallax effect. */
+
+.parallax__layer {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 100vh 0;
+}
+
+/* Next is the parallax__layer class. As the name suggests,
+it defines a layer of content to which the parallax effect will be applied;
+the element is pulled out of content flow and configured to fill the space
+of the container. */
+
+.parallax__layer--base {
+	transform: translateZ(0);
+}
+
+.parallax__layer--back {
+	transform: translateZ(-1px) scale(2);
+	// transform: translateZ(-10px) scale(11);
+}
+
+.content {
+	width: 40%;
+	margin: 0 auto;
+}
+
+.parallax__layer--back .content {
+	width: 60%;
+}
+
+/* Finally we have the modifier classes parallax__layer--base and
+parallax__layer--back. These are used to determine the scrolling
+speed of a parallax element by translating it along the Z axis
+(moving it farther away, or closer to the viewport).
+For brevity I have only defined two layer speeds - we'll add more later. */
+
+
+/* Depth correction
+Since the parallax effect is created using 3D transforms, translating
+an element along the Z axis has a side effect - its effective size changes
+as we move it closer to or farther away from the viewport.
+To counter this we need to apply a scale() transform to the element so that
+it appears to be rendered at its original size: */
+
+
+/* The scale factor can be calculated with 1 + (translateZ * -1) / perspective.
+For example, if our viewport perspective is set to 1px and we translate an element
+-2px along the Z axis the correction scale factor would be 3: */
+
+
+
+
+

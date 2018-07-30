@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Interfaces - HTML5</title>
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <link href="../css/base.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="flex-container">
+            <div class="flex-row">
+                <div class="flex-item">
+                    <h3>Media - Audio</h3>
+                    <p>This is an old file - may not be needed.</p>
+                    <p>This page is a real world test to see if a browser/device supports HTML5. "SUPPORT" below will tell if the browser you're using supports the HTML5 audio tag. "AUDIO FORMAT" will tell you if your browser supports each audio format.</p>
+                    <p>For example, Firefox's primarily supports the ogg stream.</p>
+                    <!-- Since the stream we want to play does not have an off stream, you will be presented with a link to the flash version of the stream. If you are using Chrome or Safari, you will get a player that will allow you to listen to the stream, which is in the .m4a (AAC) audio format.</p>
+                    <p><strong>SUPPORT: </strong>Your browser supports HTML5.</p>
+                    <p><strong>AUDIO FORMAT: </strong>Browser support for the ogg stream: <strong><span class="stream_type_ogg"></span></strong></p>
+                    <p><strong>AUDIO FORMAT: </strong>Browser support for the mp3 stream: <strong><span class="stream_type_mp3"></span></strong></p>
+                    <p><strong>AUDIO FORMAT: </strong>Browser support for the m4a (AAC) stream: <strong><span class="stream_type_m4a"></span></strong></p> -->
+
+                    <div class="audio_supported">
+                        <audio controls>
+                            <source src="audio/15 Lucy In The Sky With Diamonds.m4a">
+                        </audio>
+<!--                         <p>HTML5 Audio <stong>IS</strong> supported by your browser<span class="flash_version">, but you'll have to use the Flash version, and you can use the HTML5 Radio Player version of the player.</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../scripts/lib/jquery/jquery.min.js"></script>
+        <script src="scripts/html5-media-audio.js"></script>
+    </body>
+</html>
