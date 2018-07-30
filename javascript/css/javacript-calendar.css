@@ -1,0 +1,28 @@
+/*-----------------------------------------------------------------------------------*\
+	#Calendar
+\*-----------------------------------------------------------------------------------*/
+
+table, th, tr, td {
+	border: 1px solid #999;
+	text-align: center
+}
+
+table {
+	width: 100%;
+	margin-bottom: 20px
+}
+
+.calendar_heading {
+	text-align: center;
+}
+
+.today {
+	background: rgba(0,50,100,.5);
+	color: rgba(255,255,255,1);
+	font-weight: bold;
+}
+
+td[date-type="birthday"] {
+	background: rgba(174,0,0,.2);
+	color: rgba(255,255,255,1);
+}

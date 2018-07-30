@@ -1,0 +1,47 @@
+[
+	{
+		"name": "Darren Criss",
+		"image": "darren-criss.jpg",
+		"info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	},
+	{
+		"name": "Andy Mientus",
+		"image": "andy-mientus.jpg",
+		"info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	},
+	{
+		"name": "Jordan Doww",
+		"image": "jordan-doww.jpg",
+		"info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	},
+	{
+		"name": "Gideon Glick",
+		"image": "gideon-glick.jpg",
+		"info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	},
+	{
+		"name": "Travis Wall",
+		"image": "travis-wall.jpg",
+		"info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	},
+	{
+		"name": "Ellen Page",
+		"image": "ellen-page.jpg",
+		"info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	},
+	{
+		"name": "Deborah Harry",
+		"image": "deborah-harry.jpg",
+		"info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	},
+	{
+		"name": "Daniel Radcliffe",
+		"image": "daniel-radcliffe.jpg",
+		"info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	},
+	{
+		"name": "Kyle Dean Massey",
+		"image": "kyle-dean-massey.jpg",
+		"info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	}
+]

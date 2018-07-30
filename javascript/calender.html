@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Interfaces - Javascript</title>
+		<link href="../css/base.css" rel="stylesheet" />
+		<link href="css/javacript-calendar.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="flex-container">
+			<h3>Javascript - Calendar</h3>
+			<p>Bug</p>
+			<div class="flex-row">
+				<div class="flex-item" data-weight="3">
+					<div id="calendar"></div>
+				</div>
+				<div class="flex-item">
+					<select id="monthChoice" class="form-control">
+						<option value="0">January</option>
+						<option value="1">February</option>
+						<option value="2">March</option>
+						<option value="3">April</option>
+						<option value="4">May</option>
+						<option value="5">June</option>
+						<option value="6">July</option>
+						<option value="7">August</option>
+						<option value="8">September</option>
+						<option value="9">October</option>
+						<option value="10">November</option>
+						<option value="11">December</option>
+					</select>
+				</div>
+				<div class="flex-item">
+					<select id="yearChoice" class="form-control">
+						<option value="2014">2017</option>
+						<option value="2014">2016</option>
+						<option value="2014">2015</option>
+						<option value="2014">2014</option>
+						<option value="2013">2013</option>
+						<option value="2012">2012</option>
+						<option value="2011">2011</option>
+						<option value="2010">2010</option>
+						<option value="2009">2009</option>
+					</select>
+				</div>
+				<div class="flex-item">
+					<button type="button" class="btn btn-default choose">Get Calendar</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="../scripts/lib/jquery/jquery.min.js"></script>
+		<script src="scripts/javascript_calendar.js"></script>
+	</body>
+</html>
