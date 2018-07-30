@@ -1,0 +1,435 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+	color: #222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 20px;
+}
+
+h2 i.fa {
+	font-size: 12px;
+}
+
+p {
+	padding: 0 0 10px;
+}
+
+a {
+	color: #222;
+	transition: color .3s ease;
+}
+
+a:hover {
+	color: #666;
+	text-decoration: none;
+}
+
+ul {
+	margin-bottom: 20px;
+	list-style: none;
+}
+
+ul li {
+	
+	border: 1px solid #222;
+	border-bottom: none;
+}
+
+ul li:last-child {
+	border-bottom: 1px solid #222;
+}
+
+ul li a {
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+	transition: all .3s ease;
+}
+
+ul li a:hover {
+	background: #222;
+	color: #fff;
+	text-decoration: none;
+}
+
+.module {
+	width: 94%;
+	margin: 50px auto 30px;
+}
+
+.intro {
+	max-width: 750px;
+	margin: 0 auto;
+	padding-bottom: 30px !important;
+	text-align: center;
+}
+
+.home .row {
+	margin: 0;
+}
+
+.home div[class*=col-] {
+	padding: 0;
+	background: transparent;
+}
+
+.navbar {
+    margin-bottom: 0;
+    box-shadow: 1px 0 2px #000;
+    border-radius: 0;
+}
+
+.navbar .module {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.navbar.navbar-inverse {
+	background-color: rgba(43,33,32,.5)
+}
+
+.source {
+	margin-bottom: 10px;
+	color: #666;
+    font-size: 12px;
+    font-style: italic;
+    text-align: right;
+}
+
+.note {
+    font-size: 12px;
+    font-style: italic;
+}
+
+
+
+
+
+.background-1 {
+	background: #efefef;
+}
+
+.background-1 li {
+	background: #fff;
+}
+
+/* tiles */
+// .tile {
+// 	position: relative;
+// 	margin-left: 2px;
+// 	margin-bottom: 2px;
+// 	border: 1px solid rgba(236,124,74,.5);
+// 	overflow: hidden;
+// }
+
+// .tile a {
+//     color: #fff;
+// }
+
+// .tile .art {
+// 	position: relative;
+// }
+
+// .tile .cap {
+//     padding: 5px 10px;
+//     font-size: 18px;
+// }
+
+// .tile .info {
+// 	position: absolute;
+// 	width: 101%;
+// 	left: 50%;
+// 	bottom: 0;
+// 	transform: translateX(-50%);
+//     padding: 40px 30px 20px;
+//     font-size: 16px;
+//     background-image: linear-gradient(transparent, rgba(43,33,32,.6) 60%, rgba(43,33,32,1) 100%);
+//     text-align: center;
+//     text-transform: uppercase;
+// }
+
+// .tile .info h3 {
+// 	letter-spacing: 3px;
+// }
+
+// .tile footer p {
+// 	padding: 10px 0;
+// 	color: #594828;
+// 	font-size: 12px;
+// }
+
+// .tile.small .top {
+// 	background: #f0e9cd;
+// }
+
+// .tile.small .top img {
+// 	float: left;
+// }
+
+// .tile.small .top .info {
+// 	float: right;
+// }
+
+// .tile.small .top .info {
+// 	float: right;
+// }
+
+// .tile.small .bottom {
+// 	background: #f0e9cd;
+// }
+	
+// .tile.small .bottom img {
+// 	float: right;
+// }
+
+// .tile.small  img {
+// 	width: 50%;
+// }
+	
+// .tile.small .info {
+// 	position: relative;
+// 	width: 50%;
+// 	left: 25%;
+// 	padding-top: 10px;
+// 	background: transparent;
+// 	color: #2b2120;
+// }
+
+// .tile.small .info a {
+// 	color: #2b2120;
+// }
+
+img {
+	width: 100%;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+/* Prevent the text contents of draggable elements from being selectable. */
+[draggable]{
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	/* Required to make elements draggable in old WebKit */
+	-khtml-user-drag: element;
+	-webkit-user-drag: element;
+}
+
+.column {
+	width: 280px;
+	float: left;
+	border: 1px solid #666;
+	background-color: rgba(0,0,0,.1);
+	margin: 5px 5px 5px 0;
+	-webkit-box-shadow: inset 0 0 3px #000;
+	-ms-box-shadow: inset 0 0 3px #000;
+	box-shadow: inset 0 0 3px #000;
+	cursor: move;
+}
+
+.column .content {
+	padding: 10px;
+}
+
+.column .treatment {
+	box-shadow: none;
+	border: 1px solid rgba(0,0,0,.5);
+	margin-bottom: 5px
+}
+
+.column header {
+	text-align: center;
+	text-shadow: #000 0 1px;
+	box-shadow: 5px;
+	padding: 5px;
+	background: #444
+}
+
+.column.over {
+	border: 2px dashed #999;
+}
+
+.clear {
+	clear: both;
+}
+
+#map {
+	width: 100%;
+	height: 600px;
+}
+
+.country {
+	text-transform: capitalize
+}
+
+@media (min-width: 978px) and (max-width: 1200px) {
+	.column {
+		width: 225px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	.column {
+		width: 170px;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+	.column {
+		width: 130px;
+	}
+}
+
+@media (max-width: 599px) {
+	.column {
+		width: 100%;
+		float: none;
+	}
+}
+
+/* flexbox */
+.flex-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex-row {
+    display: flex;
+}
+
+@media (max-width: 480px) {
+	.flex-row {
+	    flex-direction: column;
+	}
+}
+
+.flex-item {
+    flex: 1 1 0;
+    position: relative;
+    margin: 20px 0 20px 20px;
+}
+
+.flex-row[data-margin="0"] .flex-item,
+.flex-row[data-margin="0"] .flex-item:last-child {
+    margin: 0;
+}
+
+div[data-layout="column"] {
+    display: flex;
+    flex-direction: column;
+}
+
+/* all evenly distributed cols */
+.flex-row .flex-item {
+    flex: 1 1 0;
+    position: relative;
+    margin: 20px 0 20px 20px;
+}
+
+.flex-row .flex-item:last-child {
+    margin-right: 20px;
+}
+
+.flex-item .flex-row .flex-item {
+    margin-top: 0;
+}
+
+
+.flex-item[data-weight="2"]{
+    flex: 2 2 40px;
+}
+
+.flex-item[data-weight="3"]{
+    flex: 3 3 40px;
+}
+
+.flex-item[data-weight="4"]{
+    flex: 4 4 40px;
+}
+
+/* centered images */
+.flex-item[data-image-layout="square"]:after {
+    content: "";
+    float: left;
+    display: block;
+    padding-top: 100%;
+}
+
+.flex-item[data-image-layout="square"] .tile {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.flex-item[data-image-layout="square"] .image-holder {
+    height: 100%;
+}
+
+.flex-item[data-image-layout="square"] .image-holder img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+.flex-item[data-image-layout="square"] .image-holder img:hover {
+    width: 110%;
+    height: 110%;
+    max-width: 110%;
+    max-height: 110%;
+    margin: -5%;
+}
+
+
+// The first column takes up the same amount of space as the other two. That's because the values add up to 4, so the first column is:
+
+// 2 ÷ (2 + 1 + 1) = ½
+// The other two are:
+
+// 1 ÷ (2 + 1 + 1) = ¼
+
+// The first and second columns in the second row have 22 pixels between them
+// (20 pixels for the gutter and 2 pixels for the borders).
+// We can add this missing space to the first column in the first row by setting
+// flex-basis to 22px.
+
+
+/* Three values: flex-grow | flex-shrink | flex-basis */
+
+// The flex-grow CSS property specifies the flex grow factor of a flex item.
+// It specifies what amount of space inside the flex container the item should take up.
+// flex-grow is a number - initial value - 0
+
+// The flex-shrink CSS property specifies the flex shrink factor of a flex item.
+// flex-grow is a number - initial value - 1
+
+
+
+// width: 30px; /* To make the transition work nicely. (Transitions to/from
+                // "width:auto" are buggy in Gecko and Webkit, at least.
+                // See http://bugzil.la/731886 for more info.) */
+// transition: width 0.7s ease-out;

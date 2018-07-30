@@ -1,0 +1,7 @@
+filter criteria based - 
+how many on page
+ajax call
+start and size - row x fo start 
+
+total # matches - totalresults
+results - array of things you can display - current page

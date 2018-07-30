@@ -1,0 +1,39 @@
+.content-holder {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    padding: 60px 20px 20px;
+    font-size: 14px;
+    text-align: left;
+    border: none;
+}
+
+.content-holder.overlay {
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, .15) 25%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.65) 75%);
+    color: #fff;
+    // text-shadow: 2px 2px 1px #222;
+}
+
+.swiper-pagination {
+    bottom: 0;
+}
+
+.gallery-thumbs .swiper-slide {
+    width: 25%;
+    color: #fff;
+    opacity: 0.4;
+    transition: opacity .3s ease;
+    cursor: pointer;
+}
+
+.gallery-thumbs .swiper-slide-active {
+    opacity: 1;
+}
+
+.gallery-thumbs .content-holder {
+    position: relative;
+    bottom: 0;
+    padding: 10px;
+}

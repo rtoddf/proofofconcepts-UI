@@ -1,0 +1,21 @@
+.swiper-slide {
+    width: 40%;
+}
+
+.content-holder {
+    border: none;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    width: 40%;
+}
+
+// .swiper-slide:nth-child(2n) {
+//     width: 40%;
+// }
+// .swiper-slide:nth-child(3n) {
+//     width: 20%;
+// }
