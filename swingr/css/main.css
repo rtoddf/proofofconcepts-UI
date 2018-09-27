@@ -119,17 +119,20 @@ ul {
 }
 
 .screenshot,
-.swing {
+.swing,
+.clipboard {
 	text-align: center;
 }
 
 #swingr-window .screenshot h2,
-#swingr-window .swing h2 {
+#swingr-window .swing h2,
+#swingr-window .clipboard h2 {
 	font-size: 32px;
 }
 
 #swingr-window .screenshot .button-big i,
-#swingr-window .swing .button-big i {
+#swingr-window .swing .button-big,
+#swingr-window .clipboard .button-big i {
 	font-size: 72px;
 	cursor: pointer;
 	transition: color .3s ease;

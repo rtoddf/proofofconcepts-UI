@@ -25,12 +25,33 @@ $(document).ready(function() {
 
     $(".remove").click(function(e){
         removeWidget(this);
-    })
+    });
 
     $(".add").click(function(e){
         removeWidget(this);
-    })
+	});
+	
+	$("#clipboardButton").click(function(){
+        copyToClipboard();
+    });
 });
+
+function copyToClipboard(){
+    var text = $(".clipboard-text").text();
+
+    // Create the textarea input to hold our text.
+    const element = document.createElement('textarea');
+    element.value = text;
+    // Add it to the document so that it can be focused.
+    document.body.appendChild(element);
+    // Focus on the element so that it can be copied.
+    element.focus();
+    element.setSelectionRange(0, element.value.length);
+    // Execute the copy command.
+    document.execCommand('copy');
+    // Remove the element to keep the document clear.
+    document.body.removeChild(element);
+}
 
 function inOut(){
 	console.log("click");
@@ -125,3 +146,5 @@ function removeWidget(elem){
     $(elem).addClass("hide");
     $(elem).siblings().removeClass("hide");
 }
+
+
