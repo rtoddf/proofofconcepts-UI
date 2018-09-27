@@ -59,15 +59,41 @@ var PerfItem = function(detail, i){
 
 function measurePerf(){
 	var data = performance.getEntries()
-	console.log("data: ", data)
+	
 	data.forEach(function(item, i){
-		// console.log(item)
 		var perfItem = new PerfItem(item)
-		perfList.push(perfItem)
+		
+		if(perfItem.type == "script"){
+			perfList.push(perfItem)
+		}
 	})
 
-//	renderTable()
+	renderTable()
 }
+
+function renderTable(){
+	var template_compiled = _.template(template_raw, {
+		perfList: perfList
+	})
+	$('#scripts').html(template_compiled)
+
+	console.log("template_compiled: ", template_compiled)
+}
+
+var template_raw = '<table class="performance_table"> \
+	<tr> \
+		<th  class="scripts-heading">Script</th> \
+		<th>Start Time</th> \
+		<th>Duration</th> \
+	</tr> \
+	<% for (var i = 0; i < perfList.length; i++){ %> \
+		<tr class="<%= perfList[i].type %>"> \
+			<td><%= perfList[i].name %></td> \
+			<td><%= perfList[i].startTime %></td> \
+			<td><%= perfList[i].duration %> ms</td> \
+		</tr> \
+	<% } %> \
+</table>'
 
 
 /* then use the canvas 2D drawing functions to add text, etc. for the result */
