@@ -8,21 +8,21 @@
 		<meta name="description" content="">
 		<meta name="author" content="">
 
-		<link href="../css/base.css" rel="stylesheet">
+		<link href="../../css/layouts.css" rel="stylesheet" />
 		<link href="css/base.css" rel="stylesheet">
 	</head>
 
 	<body class="performance">
-		<div class="flex-container">
-			<div class="flex-row">
-				<div class="flex-item">
+		<div class="container">
+            <div class="grid">
+                <article>
 					<h3>HTML5 - Performance Timeline API</h3>
 					<p>This specification defines an unified interface to store and retrieve performance metric data. This specification does not cover individual performance metric interfaces.</p>
 					<p>Accurately measuring performance characteristics of web applications is an important aspect of making web applications faster. Navigation Timing, Resource Timing, and User Timing are examples of specifications that define timing information related to the navigation of the document, resources on the page, and developer scripts, respectively.</p>
 					<p>Together these interfaces, and potentially others created in the future, define performance metrics that describe the performance timeline of a web application. This specification provides an unifying interface to access and retrieve these various performance metrics from the performance timeline of a web application.</p>
-				</div>
+				</article>
 			</div>
-			<div class="flex-row">
+			<div class="grid" data-col="8">
 				<div class="flex-item">
 					<img src="images/personalities/nate.jpg" class="treatment" />
 				</div>
@@ -47,8 +47,6 @@
 				<div class="flex-item">
 					<img src="images/personalities/gately.jpg" class="treatment" />
 				</div>
-			</div>
-			<div class="flex-row">
 				<div class="flex-item">
 					<img src="images/personalities/lance.jpg" class="treatment" />
 				</div>
@@ -74,8 +72,8 @@
 					<img src="images/personalities/neil.jpg" class="treatment" />
 				</div>
 			</div>
-			<div class="flex-row">
-				<div class="flex-item">
+			<div class="grid">
+				<article>
 					<p>I'm loading sixteen medium sized images (above), css, and javascript to render the page. The API measures the load preformance time. You can sort the resources by clicking the links below:</p>
 
 					<div class="sorter">
@@ -83,17 +81,17 @@
 						<span class="show_script"><a href="javascript:void(0)"><span class="icon"><img src="images/script.png" /></span>Scripts</a></span>
 						<span class="show_img"><a href="javascript:void(0)"><span class="icon"><img src="images/image.png" /></span>Images</a></span>
 					</div>
-				</div>
+				</article>
 			</div>
-			<div class="flex-row">
-				<div class="flex-item">
+			<div class="grid">
+				<article>
 					<div id="example"></div>
-				</div>
+				</article>
 			</div>
 		</div>
 
 		<script src="scripts/jquery-1.10.2.min.js"></script>
 		<script src="../scripts/lib/underscore-min.js"></script>
-		<script src="scripts/html5-performance-timeline.js"></script>
+		<script src="scripts/performance-timeline.js"></script>
 	</body>
 </html>
