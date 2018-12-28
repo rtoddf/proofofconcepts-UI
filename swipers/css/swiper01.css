@@ -1,3 +1,39 @@
+.free-style .swiper-slide {
+    width: 40%;
+}
+
 .content-holder {
+    padding: 10px 10px 40px;
+    background-color: #433b2c;
     border-bottom: none;
+}
+
+.content-holder.overlay {
+    padding: 60px 20px 40px;
+    background: linear-gradient(transparent, rgba(0, 0, 0, .15) 25%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.65) 75%);
+    border-top: none;
+}
+
+.free-style .content-holder.overlay {
+    padding: 10px;
+}
+
+.swiper-pagination {
+    width: 100%;
+    bottom: 25px;
+}
+
+.swiper-pagination-bullet {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0 3px;
+    border: 1px solid #fbefd9;
+    background: rgba(0,0,0,.2);
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background: rgba(255,255,255,.5);
+    opacity: 1;
 }
