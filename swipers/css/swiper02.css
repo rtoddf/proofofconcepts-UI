@@ -35,5 +35,6 @@
 .gallery-thumbs .content-holder {
     position: relative;
     bottom: 0;
+    width: auto;
     padding: 10px;
 }
