@@ -10,11 +10,14 @@
 
 .performance_table {
     width: 100%;
+    background: #fff;
+    color: #222;
 }
 
 .performance_table a {
     color: #000;
     text-decoration: none;
+    font-weight: normal;
 }
 
 .performance_table .headings {
@@ -45,14 +48,23 @@
     background: rgba(102,122,137,.3);
 }
 
-.performance img {
+img {
     width: 100%
 }
 
-.sorter span {
+span {
     margin-right: 10px;
 }
 
-.performance .sorter img {
+i {
+    font-size: 22px;
+    margin-right: 3px;
+}
+
+.icon {
+    font-weight: normal;
+}
+
+.sorter img {
     width: 20px;
 }
