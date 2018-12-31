@@ -1,5 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Nunito);
-
 html {
 	height: 100%;
 	overflow: hidden;
@@ -9,9 +7,8 @@ body {
 	height: 100%;
 	margin:0;
 	padding:0;
-	background: #222;
+	background: #333;
 	color: #333;
-	font-family: Nunito;
 	perspective: 1px;
 	/* transform-style: preserve-3d; */
 	overflow-y: scroll;
