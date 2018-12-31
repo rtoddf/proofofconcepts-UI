@@ -72,13 +72,13 @@ i {
 }
 
 .parallax {
-	// font-size: 200%;
+	/* font-size: 200%; */
 }
 
 /* centre the content in the parallax layers */
 .content-box,
 .icon-box {
-	// text-align: center;
+	/* text-align: center; */
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -112,8 +112,8 @@ i {
 }
 
 #group2 .parallax-layer.back {
-	// background: #ae0000;
-	background-image: url("../images/xavier-dolan.jpg");
+	/* background: #ae0000; */
+	background-image: url("../../../images/personality-xavier-dolan.jpg");
 	background-size: cover;
 	transform: scale(1);
 	-webkit-transition: all 36s ease-out;
@@ -159,7 +159,7 @@ i {
 
 #group6 .parallax-layer.back {
 	background: #003264;
-	background-image: url("../images/robin-lord-taylor.jpg");
+	background-image: url("../../../images/personality-robin-lord-taylor.jpg");
 	background-size: cover;
 }
 

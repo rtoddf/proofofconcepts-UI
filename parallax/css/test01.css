@@ -13,7 +13,7 @@ body {
 	color: #333;
 	font-family: Nunito;
 	perspective: 1px;
-	// transform-style: preserve-3d;
+	/* transform-style: preserve-3d; */
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
@@ -31,7 +31,7 @@ p {
 	background: rgba(34, 34, 34, .25);
 	border-bottom: 1px solid rgba(255, 255, 255, .4);
 	color: #fff;
-	// background-image: url("../images/media-bg.jpg");
+	/* background-image: url("../images/performance-shaping-sound05.jpg"); */
 }
 
 .header p {
@@ -39,7 +39,7 @@ p {
 }
 
 .slide {
-	// position: relative;
+	/* position: relative; */
 	padding: 25vh 10%;
 	min-height: 30vh;
 	width: 100vw;
@@ -71,15 +71,14 @@ p {
 	font-weight: 600;
 }
 
-// .slide:nth-child(2n) .box {
-// 	margin-left: 0;
-// 	margin-right: auto;
-// }
-
-// .slide:nth-child(2n+1) .box {
-// 	margin-left: auto;
-// 	margin-right: 0;
-// }
+/* .slide:nth-child(2n) .box {
+	margin-left: 0;
+	margin-right: auto;
+}
+.slide:nth-child(2n+1) .box {
+	margin-left: auto;
+	margin-right: 0;
+} */
 
 .slide,
 .slide:before {
@@ -87,7 +86,7 @@ p {
 }
 
 #slide2:before {
-	background-image: url("../images/media-bg.jpg");
+	background-image: url("../../../images/performance-shaping-sound05.jpg");
 	transform: translateZ(-1px) scale(2);
 	z-index:-1;
 }
