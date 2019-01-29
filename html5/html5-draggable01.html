@@ -8,24 +8,24 @@
 		<meta name="description" content="">
 		<meta name="author" content="">
 
-		<link href="../css/base.css" rel="stylesheet">
+		<link href="../../css/layouts.css" rel="stylesheet" />
+		<link href="../../css/displays.css" rel="stylesheet" />
+		<link href="css/base.css" rel="stylesheet">
 		<link href="css/draggable01.css" rel="stylesheet">
-
 	</head>
 
 	<body class="examples">
-		<div class="flex-container">
-			<div class="flex-row">
-				<div class="flex-item">
-					<h3>Draggable 01</h3>
-					<div id="columns">
-						<div class="column" draggable="true"><header>A</header></div>
-						<div class="column" draggable="true"><header>B</header></div>
-						<div class="column" draggable="true"><header>C</header></div>
-					</div>
+		<div class="container">
+			<div class="grid">
+				<header>
+					<h2>Draggable 01 Example</h2>
+				</header>
+
+				<div id="columns">
+					<div class="column" draggable="true"><header>A</header></div>
+					<div class="column" draggable="true"><header>B</header></div>
+					<div class="column" draggable="true"><header>C</header></div>
 				</div>
-				<div class="flex-item"></div>
-				<div class="flex-item"></div>
 			</div>
 		</div>
 		<script src="../scripts/lib/jquery/jquery.min.js"></script>
