@@ -1,10 +1,12 @@
-.custom-fonts a {
-    text-align: center;
-	text-decoration: none;
+[data-theme="home"] h3,
+[data-theme="home"] h3 a {
+    color: #fff;
+    border: none;
 }
 
 .custom-fonts i {
-    color: #222;
+    text-align: center;
+    color: #fff;
     font-size: 72px;
 }
 
